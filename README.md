@@ -1,4 +1,4 @@
-Book-Recommendation
+#Book-Recommendation
 These project is part of the “Machine Learning & Advanced Machine Learning” curriculum as capstone projects at AlmaBetter.
 
 -- Project Status: [Completed]
