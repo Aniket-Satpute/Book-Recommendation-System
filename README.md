@@ -1,4 +1,5 @@
 # Book-Recommendation-System
+![start slide](https://static.wixstatic.com/media/85280f_dbf8723f0a9c47b2b84c9f970d2e2a26~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_90,usm_0.66_1.00_0.01/85280f_dbf8723f0a9c47b2b84c9f970d2e2a26~mv2.jpg)
 
 These project is part of the “Machine Learning & Advanced Machine Learning” curriculum as capstone projects at AlmaBetter.
 
