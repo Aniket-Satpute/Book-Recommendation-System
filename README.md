@@ -64,14 +64,47 @@ data processing/cleaning
 
 recommendation system development
 
-## Getting Started
+## Challenges
 
-Clone this repo (for help see this tutorial).
+Handling of sparsity was a major challenge as well since the user interactions
+were not present for the majority of the books.
 
-Raw Data
+Understanding the metric for evaluation was a challenge as well.
 
-Users_data is being kept here within this repo.
+Since the data consisted of text data, data cleaning was a major challenge in
+features like Location etc..
 
-Ratings_data is being kept here within this repo.
+Decision making on missing value imputations and outlier treatment was
+quite challenging as well.
 
-Books_data is being kept here Complete notebook containing Data exploration/Data processing/transformation/model development is being kept here
+## Conclusion
+
+In EDA, the Top-10 most rated books were essentially novels. Books like The
+Lovely Bone and The Secret Life of Bees were very well perceived.
+
+Majority of the readers were of the age bracket 20-35 and most of them came
+from North American and European countries namely USA, Canada, UK,
+Germany and Spain.
+
+If we look at the ratings distribution, most of the books have high ratings with
+maximum books being rated 8. Ratings below 5 are few in number.
+
+Author with the most books was Agatha Christie, William Shakespeare and
+Stephen King.
+
+For modelling, it was observed that for model based collaborative filtering SVD
+technique worked way better than NMF with lower Mean Absolute Error (MAE) .
+
+Amongst the memory based approach, item-item CF performed better than
+user-user CF because of lower computation requirements
+
+## Future Scope
+
+Given more information regarding the books dataset, namely features like Genre,
+Description etc, we could implement a content-filtering based recommendation
+system and compare the results with the existing collaborative-filtering based
+system.
+
+We would like to explore various clustering approaches for clustering the users
+based on Age, Location etc., and then implement voting algorithms to
+recommend items to the user depending on the cluster into which it belongs.
